@@ -1,5 +1,5 @@
 ---
-- hosts: homelab
+- hosts: localhost
   tasks:
     - name: Install Caddy
       become: true
