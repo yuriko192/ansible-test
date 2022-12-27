@@ -1,0 +1,5 @@
+[homelab]
+192.168.0.99 ansible_user=yuriko
+
+[homepc]
+192.168.0.172
