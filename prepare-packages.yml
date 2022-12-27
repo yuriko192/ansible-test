@@ -1,0 +1,10 @@
+---
+- hosts: homelab
+  tasks:
+    - name: Install Caddy
+      become: true
+      become_user: root
+      apt:
+        state: latest
+        name: Caddy
+        update_cache: true
